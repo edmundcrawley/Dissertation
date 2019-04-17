@@ -1,0 +1,12 @@
+
+Fixes for library version:
+
+Appendicies - figure these out
+Figure captions - chapter 1 has lots of repeats
+Table width/heights
+Bibiliography
+Directory for figures etc
+
+Make GitHub Repository!!!
+
+
