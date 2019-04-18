@@ -1,6 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: root.aux
 A level-1 auxiliary file: chapter0.aux
-A level-1 auxiliary file: ./Chapter1/Chapter1.aux
-I found no \bibdata command---while reading file root.aux
-I found no \bibstyle command---while reading file root.aux
-(There were 2 error messages)
+The style file: econometrica.bst
+Database file #1: AllPapers.bib
+Done.

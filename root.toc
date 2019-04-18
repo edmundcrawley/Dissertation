@@ -1,26 +1,4 @@
 \contentsline {chapter}{Abstract}{ii}{chapter*.1}
-\contentsline {chapter}{Acknowledgments}{iii}{chapter*.2}
-\contentsline {chapter}{List of Tables}{vii}{chapter*.5}
-\contentsline {chapter}{List of Figures}{viii}{chapter*.6}
-\contentsline {chapter}{\numberline {1}Time Aggregation in Panel Data on Income and Consumption}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Abstract}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Introduction}{2}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}What is Time Aggregation?}{2}{subsection.1.2.1}
-\contentsline {section}{\numberline {1.3}Time Aggregated Random Walk}{4}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}The two sub-division case}{6}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}The N sub-division case}{7}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}The Continuous Time Case}{8}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Time Aggregation in \cite {blundell_consumption_2008}}{11}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}The Model in Discrete Time Without Time Aggregation}{11}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}The Model in Continuous Time with Time Aggregation}{13}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}The Evidence}{16}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Persistence in the Transitory Shock}{18}{subsection.1.4.4}
-\contentsline {section}{\numberline {1.5}Conclusion}{22}{section.1.5}
-\contentsline {section}{\numberline {1.6}Continuous Time Model as Limit of Discrete Model with m Sub-periods}{23}{section.1.6}
-\contentsline {section}{\numberline {1.7}Identification in the Full Model}{28}{section.1.7}
-\contentsline {section}{\numberline {1.8}Persistence in Transitory Shock}{31}{section.1.8}
-\contentsline {subsection}{\numberline {1.8.1}Linear Decay Model}{31}{subsection.1.8.1}
-\contentsline {subsection}{\numberline {1.8.2}The Uniform Model}{35}{subsection.1.8.2}
-\contentsline {subsection}{\numberline {1.8.3}The Two-shot Model}{36}{subsection.1.8.3}
-\contentsline {section}{\numberline {1.9}Effect of Timing of Consumption in the PSID}{37}{section.1.9}
-\contentsline {section}{\numberline {1.10}Other Tables from the BPP paper}{38}{section.1.10}
+\contentsline {chapter}{Acknowledgments}{v}{chapter*.2}
+\contentsline {chapter}{List of Tables}{viii}{chapter*.5}
+\contentsline {chapter}{List of Figures}{ix}{chapter*.6}
