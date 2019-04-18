@@ -11,10 +11,15 @@
 import sys 
 import os
 
+global Rscript_path 
 Rscript_path = "C:/Program Files/R/R-3.4.3/bin/x64/Rscript"
+
 DissertationPath = "C:/Users/edmun/OneDrive/Documents/Research/Dissertation/"
 sys.path.append(DissertationPath + 'Chapter1/')
 
 #Chapter 1
 os.chdir(DissertationPath + "Chapter1/")
 import do_Chapter1
+
+
+
