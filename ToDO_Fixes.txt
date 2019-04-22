@@ -7,6 +7,16 @@ Table width/heights
 Bibiliography
 Directory for figures etc
 
-Make GitHub Repository!!!
+DOLO.....
 
+
+
+do_all:
+	Nearly there with Chapter 1 & 2
+	Make appendix tables at end of MAIN in chapter 2 optional
+	Figure out paths for the R files called in chapter 2
+	Move Chapter 2 over to Dissertation and run...! Maybe try that tonight
+
+	Then only left with Chapter 3
+	Figure out Dolo
 
