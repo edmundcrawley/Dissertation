@@ -102,6 +102,7 @@ np.savetxt('./Results/benchmark_centerspread.txt',[benchmark_center_estimate,ben
 #Draw Lorenz curve
 benchmark_LorenzSim = np.hstack((np.array(0.0),np.mean(np.array(BenchmarkEconomy.LorenzLong_hist)[BenchmarkEconomy.ignore_periods:,:],axis=0),np.array(1.0)))
 LorenzAxis = np.arange(101,dtype=float)
+plt.figure()
 plt.plot(LorenzAxis,np.append(0.0,BenchmarkEconomy.LorenzAllData)/100.0,'-k',linewidth=1.5)
 plt.plot(LorenzAxis,benchmark_LorenzSim,'--k',linewidth=1.5)
 plt.scatter(np.array(np.append(np.append([0],BenchmarkEconomy.LorenzPercentiles),[1]))*100,np.append(np.append([0],BenchmarkEconomy.LorenzTarget),[1]))
@@ -204,6 +205,7 @@ np.savetxt('./Results/prefshock_centerspread.txt',[prefshock_center_estimate,pre
 #Draw Lorenz curve
 prefshock_LorenzSim = np.hstack((np.array(0.0),np.mean(np.array(PrefShockEconomy.LorenzLong_hist)[PrefShockEconomy.ignore_periods:,:],axis=0),np.array(1.0)))
 LorenzAxis = np.arange(101,dtype=float)
+plt.figure()
 plt.plot(LorenzAxis,np.append(0.0,PrefShockEconomy.LorenzAllData)/100.0,'-k',linewidth=1.5)
 plt.plot(LorenzAxis,prefshock_LorenzSim,'--k',linewidth=1.5)
 plt.scatter(np.array(np.append(np.append([0],PrefShockEconomy.LorenzPercentiles),[1]))*100,np.append(np.append([0],PrefShockEconomy.LorenzTarget),[1]))

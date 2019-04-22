@@ -19,17 +19,18 @@ Rscript_path = "C:/Program Files/R/R-3.4.3/bin/x64/Rscript"
 DissertationPath = "C:/Users/edmun/OneDrive/Documents/Research/Dissertation/"
 sys.path.append(DissertationPath + 'Chapter1/')
 
-#Chapter 1
+#Chapter 1 - takes about 4 minutes
 start_time = clock()
 os.chdir(DissertationPath + "Chapter1/")
 import do_Chapter1
 end_time = clock()
 print('Code for Chapter 1 took ' + mystr((end_time-start_time)/60.0) + ' minutes.')
+#Code for Chapter 2 took 5.4983 minutes.
 
 
 sys.path.append(DissertationPath + 'Chapter2/Code/')
 
-#Chapter 1
+#Chapter 1 - takes a about 6 minutes
 start_time = clock()
 os.chdir(DissertationPath + "Chapter2/Code/")
 import do_Chapter2
