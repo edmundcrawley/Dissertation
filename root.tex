@@ -12,8 +12,8 @@
 \usepackage{upgreek}
 \usepackage{hyperref}
 %\usepackage{setspace}
-
-\usepackage{booktabs}
+\usepackage{placeins}
+\usepackage{booktabs,rotating}
 \usepackage{multirow}
 \usepackage{longtable}
 \usepackage[font=singlespacing, labelfont=bf]{caption}
@@ -39,6 +39,7 @@
 \usepackage{lscape}
 %\usepackage[nolists,nomarkers,tablesonly]{endfloat}
 \usepackage{amsmath,amsfonts}
+\usepackage{tikz}
 %-------------------------------------------------------------------------------------------
 
 
@@ -80,6 +81,19 @@
 \setlength{\paperheight}{11in}
 \setlength{\paperwidth}{8.5in}
 
+%copied from econtexShortcuts
+\providecommand{\mLevBF}{\ensuremath{\mathbf{m}}}
+\providecommand{\cLevBF}{\ensuremath{\mathbf{c}}}
+\providecommand{\aLevBF}{\ensuremath{\mathbf{a}}}
+\providecommand{\yLevBF}{\ensuremath{\mathbf{y}}}
+\providecommand{\pLevBF}{\ensuremath{\mathbf{p}}}
+\providecommand{\bLevBF}{\ensuremath{\mathbf{b}}}
+\providecommand{\lLevBF}{\ensuremath{\pmb{\ell}}}
+
+%circled draws a circle around a number
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
 \begin{document}
 
 \title{ESSAYS ON CONSUMPTION}
@@ -93,8 +107,8 @@
 
 % add your chapters, best way is to have separate TeX files for each chapter
 \include{chapter0}
-%\include{./Chapter1/Chapter1}
-%\include{chapter2}
+\include{./Chapter1/Chapter1}
+\include{./Chapter2/Chapter2}
 %\include{chapter3}
 %\include{appendix}
 

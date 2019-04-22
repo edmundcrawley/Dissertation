@@ -1,2 +1,79 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
 \BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{List of Tables}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{List of Figures}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Time Aggregation in Panel Data on Income and Consumption}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Abstract}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Introduction}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.2.1}{What is Time Aggregation?}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Time Aggregated Random Walk}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{The two sub-division case}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.2}{The N sub-division case}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.3}{The Continuous Time Case}{section.1.3}% 12
+\BOOKMARK [1][-]{section.1.4}{Time Aggregation in blundellconsumption2008}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.4.1}{The Model in Discrete Time Without Time Aggregation}{section.1.4}% 14
+\BOOKMARK [2][-]{subsection.1.4.2}{The Model in Continuous Time with Time Aggregation}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.3}{The Evidence}{section.1.4}% 16
+\BOOKMARK [2][-]{subsection.1.4.4}{Persistence in the Transitory Shock}{section.1.4}% 17
+\BOOKMARK [1][-]{section.1.5}{Conclusion}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.6}{Appendicies}{chapter.1}% 19
+\BOOKMARK [2][-]{subsection.1.6.1}{Continuous Time Model as Limit of Discrete Model with m Sub-periods}{section.1.6}% 20
+\BOOKMARK [2][-]{subsection.1.6.2}{Identification in the Full Model}{section.1.6}% 21
+\BOOKMARK [2][-]{subsection.1.6.3}{Persistence in Transitory Shock}{section.1.6}% 22
+\BOOKMARK [3][-]{subsubsection.1.6.3.1}{Linear Decay Model}{subsection.1.6.3}% 23
+\BOOKMARK [3][-]{subsubsection.1.6.3.2}{The Uniform Model}{subsection.1.6.3}% 24
+\BOOKMARK [3][-]{subsubsection.1.6.3.3}{The Two-shot Model}{subsection.1.6.3}% 25
+\BOOKMARK [2][-]{subsection.1.6.4}{Effect of Timing of Consumption in the PSID}{section.1.6}% 26
+\BOOKMARK [2][-]{subsection.1.6.5}{Other Tables from the BPP paper}{section.1.6}% 27
+\BOOKMARK [0][-]{chapter.2}{Consumption Heterogeneity: Micro Drivers and Macro Implications}{}% 28
+\BOOKMARK [1][-]{section.2.1}{Abstract}{chapter.2}% 29
+\BOOKMARK [1][-]{section.2.2}{Introduction}{chapter.2}% 30
+\BOOKMARK [1][-]{section.2.3}{Background}{chapter.2}% 31
+\BOOKMARK [2][-]{subsection.2.3.1}{Existing Empirical Evidence on Heterogeneity in Consumption Behavior}{section.2.3}% 32
+\BOOKMARK [1][-]{section.2.4}{Empirical Strategy}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.4.1}{Methodology Intuition}{section.2.4}% 34
+\BOOKMARK [2][-]{subsection.2.4.2}{Aside: Why Not BPP? A Brief Introduction to the Time Aggregation Problem}{section.2.4}% 35
+\BOOKMARK [2][-]{subsection.2.4.3}{Covariance Restrictions}{section.2.4}% 36
+\BOOKMARK [3][-]{subsubsection.2.4.3.1}{Income Dynamics: carrollnature1997}{subsection.2.4.3}% 37
+\BOOKMARK [3][-]{subsubsection.2.4.3.2}{Consumption Dynamics}{subsection.2.4.3}% 38
+\BOOKMARK [1][-]{section.2.5}{Data}{chapter.2}% 39
+\BOOKMARK [2][-]{subsection.2.5.1}{Income}{section.2.5}% 40
+\BOOKMARK [2][-]{subsection.2.5.2}{Imputed Expenditure}{section.2.5}% 41
+\BOOKMARK [2][-]{subsection.2.5.3}{Sample Selection}{section.2.5}% 42
+\BOOKMARK [1][-]{section.2.6}{Income and Consumption Characteristics by Household Wealth}{chapter.2}% 43
+\BOOKMARK [1][-]{section.2.7}{Monetary Policy and the Redistribution Channel}{chapter.2}% 44
+\BOOKMARK [2][-]{subsection.2.7.1}{Distribution of MPX Across NNP, URE and Income}{section.2.7}% 45
+\BOOKMARK [2][-]{subsection.2.7.2}{Theoretical Setup and Sufficient Statistics}{section.2.7}% 46
+\BOOKMARK [2][-]{subsection.2.7.3}{Out of Sample MPX}{section.2.7}% 47
+\BOOKMARK [2][-]{subsection.2.7.4}{Results}{section.2.7}% 48
+\BOOKMARK [1][-]{section.2.8}{Benchmark Model and Taste Shock Extension}{chapter.2}% 49
+\BOOKMARK [2][-]{subsection.2.8.1}{Benchmark Model Calibrated to Danish Data}{section.2.8}% 50
+\BOOKMARK [2][-]{subsection.2.8.2}{Model with Preference Shocks}{section.2.8}% 51
+\BOOKMARK [2][-]{subsection.2.8.3}{MPX by Liquid Wealth}{section.2.8}% 52
+\BOOKMARK [1][-]{section.2.9}{Threats to Identification}{chapter.2}% 53
+\BOOKMARK [2][-]{subsection.2.9.1}{Durables}{section.2.9}% 54
+\BOOKMARK [2][-]{subsection.2.9.2}{Labor Elasticity}{section.2.9}% 55
+\BOOKMARK [2][-]{subsection.2.9.3}{Persistent Consumption Response}{section.2.9}% 56
+\BOOKMARK [2][-]{subsection.2.9.4}{Measurement Error}{section.2.9}% 57
+\BOOKMARK [3][-]{subsubsection.2.9.4.1}{Labor Income}{subsection.2.9.4}% 58
+\BOOKMARK [3][-]{subsubsection.2.9.4.2}{Imputed Expenditure}{subsection.2.9.4}% 59
+\BOOKMARK [2][-]{subsection.2.9.5}{RIP or HIP Income Process?}{section.2.9}% 60
+\BOOKMARK [2][-]{subsection.2.9.6}{Time Varying Risk}{section.2.9}% 61
+\BOOKMARK [1][-]{section.2.10}{Conclusion}{chapter.2}% 62
+\BOOKMARK [1][-]{section.2.11}{Appendix}{chapter.2}% 63
+\BOOKMARK [2][-]{subsection.2.11.1}{Identification with Time Aggregation}{section.2.11}% 64
+\BOOKMARK [2][-]{subsection.2.11.2}{Sample Selection}{section.2.11}% 65
+\BOOKMARK [2][-]{subsection.2.11.3}{The Danish Mortgage Market}{section.2.11}% 66
+\BOOKMARK [2][-]{subsection.2.11.4}{Details on the Calculation of NNP and URE}{section.2.11}% 67
+\BOOKMARK [3][-]{subsubsection.2.11.4.1}{NNP and URE for Households}{subsection.2.11.4}% 68
+\BOOKMARK [3][-]{subsubsection.2.11.4.2}{Other Sectors}{subsection.2.11.4}% 69
+\BOOKMARK [2][-]{subsection.2.11.5}{Persistent Consumption Response}{section.2.11}% 70
+\BOOKMARK [3][-]{subsubsection.2.11.5.1}{Details on Section 2.9.3 Simulations}{subsection.2.11.5}% 71
+\BOOKMARK [3][-]{subsubsection.2.11.5.2}{Persistent Consumption in the Preference Shock Model}{subsection.2.11.5}% 72
+\BOOKMARK [3][-]{subsubsection.2.11.5.3}{Estimates Using Different Values of N}{subsection.2.11.5}% 73
+\BOOKMARK [2][-]{subsection.2.11.6}{Labor Elasticity Model}{section.2.11}% 74
+\BOOKMARK [2][-]{subsection.2.11.7}{RIP or HIP Income Process?}{section.2.11}% 75
+\BOOKMARK [2][-]{subsection.2.11.8}{Time Varying Risk}{section.2.11}% 76
+\BOOKMARK [2][-]{subsection.2.11.9}{Robustness}{section.2.11}% 77
+\BOOKMARK [2][-]{subsection.2.11.10}{Distribution of Permanent MPX by NNP, URE and Income}{section.2.11}% 78
+\BOOKMARK [2][-]{subsection.2.11.11}{Intra-household Income Insurance}{section.2.11}% 79
