@@ -3,10 +3,17 @@ Fixes for library version:
 
 Table width/heights (maybe OK?)
 
-DOLO.....
+
+Tomorrow:
+	Do sticky wages
+
+Also on list:
+	Prep for StickyE presentation
+	Get TimeAgg ready for publication - AR1/VAR application?
+	Get Consumtpion Heterogeneity ready for publication
+	Start on Chris' Norway project
+
+	Clear study of books etc
 
 
-do_all:
-	Add Chapter 3
-	Figure out Dolo
 
