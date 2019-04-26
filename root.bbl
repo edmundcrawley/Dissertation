@@ -53,6 +53,15 @@
   {Channel},'' NBER {Working} {Paper} 23451, National Bureau of Economic
   Research.
 
+\harvarditem[Auclert and Rognlie]{Auclert and Rognlie}{2017}{arGHH}
+\textsc{Auclert, A.,  {\small and} M.~Rognlie}  (2017): ``A note on multipliers
+  in NK models with GHH preferences,'' working paper.
+
+\harvarditem[Auclert and Rognlie]{Auclert and
+  Rognlie}{2018}{auclert_inequality_2018}
+\textsc{\BySame{}}  (2018): ``Inequality and {Aggregate} {Demand},'' Working
+  {Paper} 24280, National Bureau of Economic Research.
+
 \harvarditem[Baker]{Baker}{2015}{baker_debt_2015}
 \textsc{Baker, S.~R.}  (2015): ``Debt and the {Consumption} {Response} to
   {Household} {Income} {Shocks},'' {SSRN} {Scholarly} {Paper} ID 2541142,
@@ -63,6 +72,11 @@
 \textsc{Baker, S.~R., L.~Kueng, M.~Pagel,  {\small and} S.~Meyer}  (2018):
   ``Measurement {Error} in {Imputed} {Consumption},'' {SSRN} {Scholarly}
   {Paper} ID 3179117, Social Science Research Network, Rochester, NY.
+
+\harvarditem[Bayer and Luetticke]{Bayer and Luetticke}{2018}{blSolving}
+\textsc{Bayer, C.,  {\small and} R.~Luetticke}  (2018): ``Solving heterogeneous
+  agent models in discrete time with many idiosyncratic states by perturbation
+  methods,'' working paper.
 
 \harvarditem[Best, Cloyne, Ilzetzki, and Kleven]{Best, Cloyne, Ilzetzki, and
   Kleven}{2018}{best_estimating_2018}
@@ -82,6 +96,13 @@
 \textsc{Blundell, R., L.~Pistaferri,  {\small and} I.~Preston}  (2008):
   ``Consumption {Inequality} and {Partial} {Insurance},'' \emph{American
   Economic Review}, 98(5), 1887--1921.
+
+\harvarditem[Broer, Hansen, Krusell, and Oberg]{Broer, Hansen, Krusell, and
+  Oberg}{2018}{broer_2018}
+\textsc{Broer, T., N.-J.~H. Hansen, P.~Krusell,  {\small and} E.~Oberg}
+  (2018): ``The {New} {Keynesian} {Transmission} {Mechanism}: {A}
+  {Heterogeneous}-{Agent} {Perspective},'' \emph{The Review of Economic
+  Studies}.
 
 \harvarditem[Browning and Collado]{Browning and
   Collado}{2001}{browningCollado:AntIncChanges}
@@ -162,11 +183,20 @@
 \textsc{Crawley, E.}  (2018): ``Time Aggregation in Panel Data on Income and
   Consumption,'' Mimeo, Department of Economics, Johns Hopkins University.
 
+\harvarditem[Crawley and Kuchler]{Crawley and Kuchler}{2018}{ckConsumption}
+\textsc{Crawley, E.,  {\small and} A.~Kuchler}  (2018): ``Consumption
+  Heterogeneity: Micro Drivers and Macro Implications,'' working paper 129,
+  Danmarks Nationalbank.
+
 \harvarditem[David, Marquis, Moore, Stinson, and Welniak]{David, Marquis,
   Moore, Stinson, and Welniak}{1997}{david_income_nodate}
 \textsc{David, M., K.~H. Marquis, J.~C. Moore, L.~L. Stinson,  {\small and}
   E.~J. Welniak}  (1997): ``Income {Measurement} {Error} in {Surveys}: {A}
   {Review} - {Semantic} {Scholar},'' .
+
+\harvarditem[Debortoli and Gali]{Debortoli and Gali}{2018}{dgHANKTANK}
+\textsc{Debortoli, D.,  {\small and} J.~Gali}  (2018): ``Monetary Policy with
+  Heterogeneous Agents: Insights from TANK models,'' mimeo, CREI.
 
 \harvarditem[Doepke and Schneider]{Doepke and
   Schneider}{2006}{doepke_inflation_2006}
@@ -203,6 +233,22 @@
   {You} {Do} {With} \$500? {Spending} {Responses} to {Gains}, {Losses}, {News}
   and {Loans},'' NBER {Working} {Paper} 24386, National Bureau of Economic
   Research.
+
+\harvarditem[Gali]{Gali}{2008}{gali_book}
+\textsc{Gali, J.}  (2008): \emph{Monetary Policy, Inflation, and the Business
+  Cycle}. Princeton University Press.
+
+\harvarditem[Gali, {Lopez-Salido}, and Valles]{Gali, {Lopez-Salido}, and
+  Valles}{2007}{gali_understanding_2007}
+\textsc{Gali, J., D.~{Lopez-Salido},  {\small and} J.~Valles}  (2007):
+  ``Understanding the {Effects} of {Government} {Spending} on {Consumption},''
+  \emph{Journal of the European Economic Association}, 5(1), 227--270.
+
+\harvarditem[Gali, Lopez-Salido, and Valles]{Gali, Lopez-Salido, and
+  Valles}{2004}{gali_2004}
+\textsc{Gali, J., J.~D. Lopez-Salido,  {\small and} J.~Valles}  (2004):
+  ``Rule-of-{Thumb} {Consumers} and the {Design} of {Interest} {Rate}
+  {Rules},'' Discussion Paper 10392, National Bureau of Economic Research, Inc.
 
 \harvarditem[Ganong and Noel]{Ganong and Noel}{2017}{ganong_consumer_2017}
 \textsc{Ganong, P.,  {\small and} P.~Noel}  (2017): ``Consumer {Spending}
@@ -407,6 +453,10 @@
 \textsc{Peterman, W.~B.}  (2016): ``Reconciling {Micro} and {Macro} {Estimates}
   of the {Frisch} {Labor} {Supply} {Elasticity},'' \emph{Economic Inquiry},
   54(1), 100--120.
+
+\harvarditem[Rotemberg]{Rotemberg}{1982}{rotemberg_sticky_1982}
+\textsc{Rotemberg, J.~J.}  (1982): ``Sticky {Prices} in the {United}
+  {States},'' \emph{Journal of Political Economy}, 90(6), 1187--1211.
 
 \harvarditem[Sahm, Shapiro, and Slemrod]{Sahm, Shapiro, and
   Slemrod}{2010}{Sahmetal:2008TaxRebates}
