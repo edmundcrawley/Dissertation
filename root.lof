@@ -1,39 +1,39 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Time Aggregation Induces Serial Correlation\relax }}{5}{figure.caption.7}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Induced Autocorrelation for different N\relax }}{10}{figure.caption.8}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Shock Variances in the 1980's\relax }}{22}{figure.caption.11}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Time Aggregation Induces Serial Correlation\relax }}{5}{figure.caption.7}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Induced Autocorrelation for different N\relax }}{10}{figure.caption.8}% 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Shock Variances in the 1980's\relax }}{22}{figure.caption.11}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Regression Coefficients of Consumption Growth on Income Growth\relax }}{53}{figure.caption.15}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The Time Aggregation Problem\relax }}{56}{figure.caption.16}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Generic Transitory Shock Impulse Response\relax }}{61}{figure.caption.17}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Generic Transitory Shock Impulse Response\relax }}{63}{figure.caption.18}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Imputed Register Measure and National Account Measure of Expenditure (from \cite {abildgren_consistency_2018})\relax }}{71}{figure.caption.19}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Variance and MPX by Liquid Wealth Quintile\relax }}{75}{figure.caption.20}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Variance and MPX by Net Wealth Quintile\relax }}{77}{figure.caption.21}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces MPX Distribution by URE, NNP and Income\relax }}{84}{figure.caption.22}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Lorenz Curve for Danish Liquid Assets\relax }}{94}{figure.caption.23}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Baseline model (LHS) and Preference Shock Model (RHS) with the Data\relax }}{97}{figure.caption.24}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Bias in Transitory MPX with Delay in Durable Goods Purchase\relax }}{101}{figure.caption.25}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces MPX Removing Cars and Using the Non-durable Proxy Panel\relax }}{102}{figure.caption.26}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Bias from Persistent Consumption\relax }}{105}{figure.caption.27}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Permanent and Transitory Shock Variance by Age\relax }}{121}{figure.caption.28}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces MPX by Age\relax }}{122}{figure.caption.29}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Mortgage Debt by Type (All Households) { \emph {\fontsize 10{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \belowdisplayskip \abovedisplayskip \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }{Source: Danmarks Nationalbank}} }\relax }}{123}{figure.caption.30}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Mortgage Debt by Maturity (All Households Excluding Self-employed) { \emph {\fontsize 10{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \belowdisplayskip \abovedisplayskip \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }{Source: Danmarks Nationalbank}} }\relax }}{124}{figure.caption.31}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Bias from Persistent Consumption\relax }}{129}{figure.caption.32}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Empirical Method on Simulated Data versus Partial Derivative\relax }}{130}{figure.caption.33}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Variance and Covariance with Years of Growth\relax }}{139}{figure.caption.34}
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Standard Deviation of Income Growth\relax }}{140}{figure.caption.35}
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Robustness of Liquid Wealth and URE Distributions\relax }}{142}{figure.caption.36}
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Results Using Log Income and Expenditure\relax }}{143}{figure.caption.37}
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Results Using Total Labor Income and Head Labor Income\relax }}{144}{figure.caption.38}
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Results Using Quintiles of Liquid Wealth over Permanent Income vs Liquid Wealth\relax }}{144}{figure.caption.39}
-\contentsline {figure}{\numberline {2.26}{\ignorespaces MPX Distribution by URE, NNP and Income\relax }}{146}{figure.caption.40}
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Results Using Total, Head and Spouse Labor Income\relax }}{147}{figure.caption.41}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Regression Coefficients of Consumption Growth on Income Growth\relax }}{53}{figure.caption.15}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The Time Aggregation Problem\relax }}{56}{figure.caption.16}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Generic Transitory Shock Impulse Response\relax }}{61}{figure.caption.17}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Generic Transitory Shock Impulse Response\relax }}{63}{figure.caption.18}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Imputed Register Measure and National Account Measure of Expenditure (from \cite {abildgren_consistency_2018})\relax }}{71}{figure.caption.19}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Variance and MPX by Liquid Wealth Quintile\relax }}{75}{figure.caption.20}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Variance and MPX by Net Wealth Quintile\relax }}{77}{figure.caption.21}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces MPX Distribution by URE, NNP and Income\relax }}{84}{figure.caption.22}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Lorenz Curve for Danish Liquid Assets\relax }}{94}{figure.caption.23}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Baseline model (LHS) and Preference Shock Model (RHS) with the Data\relax }}{97}{figure.caption.24}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Bias in Transitory MPX with Delay in Durable Goods Purchase\relax }}{101}{figure.caption.25}% 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces MPX Removing Cars and Using the Non-durable Proxy Panel\relax }}{102}{figure.caption.26}% 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Bias from Persistent Consumption\relax }}{105}{figure.caption.27}% 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Permanent and Transitory Shock Variance by Age\relax }}{121}{figure.caption.28}% 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces MPX by Age\relax }}{122}{figure.caption.29}% 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Mortgage Debt by Type (All Households) { \emph {\fontsize 10{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \belowdisplayskip \abovedisplayskip \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }{Source: Danmarks Nationalbank}} }\relax }}{123}{figure.caption.30}% 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Mortgage Debt by Maturity (All Households Excluding Self-employed) { \emph {\fontsize 10{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \belowdisplayskip \abovedisplayskip \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }{Source: Danmarks Nationalbank}} }\relax }}{124}{figure.caption.31}% 
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Bias from Persistent Consumption\relax }}{129}{figure.caption.32}% 
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Empirical Method on Simulated Data versus Partial Derivative\relax }}{130}{figure.caption.33}% 
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Variance and Covariance with Years of Growth\relax }}{139}{figure.caption.34}% 
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Standard Deviation of Income Growth\relax }}{140}{figure.caption.35}% 
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Robustness of Liquid Wealth and URE Distributions\relax }}{142}{figure.caption.36}% 
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Results Using Log Income and Expenditure\relax }}{143}{figure.caption.37}% 
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Results Using Total Labor Income and Head Labor Income\relax }}{144}{figure.caption.38}% 
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Results Using Quintiles of Liquid Wealth over Permanent Income vs Liquid Wealth\relax }}{144}{figure.caption.39}% 
+\contentsline {figure}{\numberline {2.26}{\ignorespaces MPX Distribution by URE, NNP and Income\relax }}{146}{figure.caption.40}% 
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Results Using Total, Head and Spouse Labor Income\relax }}{147}{figure.caption.41}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Changing the Proportion of Keynesian Households, $\sigma =1$\relax }}{169}{figure.caption.43}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Changing the Debt of Keynesian Households\relax }}{172}{figure.caption.44}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Path of Capital following a 1\% nominal interest rate shock\relax }}{178}{figure.caption.45}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Paths following a 1\% nominal interest rate decrease\relax }}{180}{figure.caption.46}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Path of Tobin's q following a 1\% nominal interest rate shock\relax }}{183}{figure.caption.48}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces IRFs following a 1\% Nominal Interest Rate Decline for the HANK Model\relax }}{188}{figure.caption.49}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Changing the Proportion of Keynesian Households, $\sigma =1$\relax }}{169}{figure.caption.43}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Changing the Debt of Keynesian Households\relax }}{172}{figure.caption.44}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Path of Capital following a 1\% nominal interest rate shock\relax }}{178}{figure.caption.45}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Paths following a 1\% nominal interest rate decrease\relax }}{180}{figure.caption.46}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Path of Tobin's q following a 1\% nominal interest rate shock\relax }}{183}{figure.caption.48}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces IRFs following a 1\% Nominal Interest Rate Decline for the HANK Model\relax }}{188}{figure.caption.49}% 
