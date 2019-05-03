@@ -12,7 +12,8 @@ So that the observable change in income is given by:
 &= \int_{T-1}^{T} \int_{0}^{t}dP_s dt -\int_{T-2}^{T-1} \int_{0}^{t}dP_s dt \nonumber \\
 & \qquad +  \int_{T-1}^{T} \int_{t-\tau}^{t} \frac{2}{\tau}(s-(t-\tau)) dQ_s dt -\int_{T-2}^{T-1}\int_{t-\tau}^{t} \frac{2}{\tau}(s-(t-\tau)) dQ_s dt \nonumber \\
 &= \Big(\int_{T-2}^{T-1} (s-(T-2))dP_s  + \int_{T-1}^{T} (T-s)dP_s \Big) \nonumber \\
-&  \qquad +\frac{2}{\tau} \Big(\int_{T-\tau}^{T} \frac{1}{2}\Big(\tau - \frac{(s-(T-\tau))^2}{\tau} \Big)dQ_s  +\int_{T-1}^{T-\tau} \frac{1}{2}\tau dQ_s  +\int_{T-1-\tau}^{T-1} \frac{1}{2}\frac{(s-(T-1-\tau))^2}{\tau} dQ_s \Big) \nonumber \\
+&  \qquad +\frac{2}{\tau} \Big(\int_{T-\tau}^{T} \frac{1}{2}\Big(\tau - \frac{(s-(T-\tau))^2}{\tau} \Big)dQ_s  +\int_{T-1}^{T-\tau} \frac{1}{2}\tau dQ_s \\
+& \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad +\int_{T-1-\tau}^{T-1} \frac{1}{2}\frac{(s-(T-1-\tau))^2}{\tau} dQ_s \Big) \nonumber \\
 & \qquad -\frac{2}{\tau}  \Big(\int_{T-1-\tau}^{T-1} \frac{1}{2}\Big(\tau - \frac{(s-(T-1-\tau))^2}{\tau} \Big)dQ_s  +\int_{T-2}^{T-1-\tau} \frac{1}{2}\tau dQ_s \nonumber \\
 & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad  +\int_{T-2-\tau}^{T-2} \frac{1}{2}\frac{(s-(T-2-\tau))^2}{\tau} dQ_s \Big) \nonumber \\
 &= \int_{T-2}^{T-1} (s-(T-2))dP_s  + \int_{T-1}^{T} (T-s)dP_s  \nonumber \\
@@ -34,9 +35,9 @@ The full set of identification equations used in this model are:
 \end{align}
 \begin{align}
 \mathrm{Cov}(\Delta y^{obs}_T, \Delta y^{obs}_{T+1}) &=  \mathbb{E} \Big(\int_{T-1}^{T} (T-s)(s-(T-1)) dP_s dP_s  \Big) \nonumber \\
-&  \qquad -\mathbb{E} \Big(\int_{T-\tau}^{T}\Big( 1 - \Big(\frac{s-(T-\tau)}{\tau}\Big)^2\Big) \Big( 1 - 2\Big(\frac{s-(T-\tau)}{\tau}\Big)^2\Big)  dQ_s dQ_s\Big) \nonumber\\
-& \qquad -\mathbb{E} \Big( \int_{T-1}^{T-\tau}  dQ_s Q_s\Big) \nonumber \\
-& \qquad +\mathbb{E} \Big( \int_{T-1-\tau}^{T-1}\Big( 1 - 2\Big(\frac{s-(T-1-\tau)}{\tau}\Big)^2\Big)  \Big(\frac{s-(T-1-\tau)}{\tau}\Big)^2 dQ_s dQ_s\Big) \nonumber \\
+   -\mathbb{E}& \Big(\int_{T-\tau}^{T}\Big( 1 - \Big(\frac{s-(T-\tau)}{\tau}\Big)^2\Big) \Big( 1 - 2\Big(\frac{s-(T-\tau)}{\tau}\Big)^2\Big)  dQ_s dQ_s\Big) \nonumber\\
+  -\mathbb{E}& \Big( \int_{T-1}^{T-\tau}  dQ_s Q_s\Big) \nonumber \\
+  +\mathbb{E}& \Big( \int_{T-1-\tau}^{T-1}\Big( 1 - 2\Big(\frac{s-(T-1-\tau)}{\tau}\Big)^2\Big)  \Big(\frac{s-(T-1-\tau)}{\tau}\Big)^2 dQ_s dQ_s\Big) \nonumber \\
 &= \frac{1}{6}\sigma^2_{P,T}  -\frac{2}{5}\tau \sigma^2_{Q,T}  -(1-\tau) \sigma^2_{Q,T}  -\frac{1}{15} \sigma^2_{Q,T-1} \nonumber 
 \end{align}
 \begin{align}

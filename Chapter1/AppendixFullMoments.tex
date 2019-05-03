@@ -25,7 +25,8 @@ These two equations allow for the calculation of all the required identification
 \mathrm{Cov}(\Delta y^{obs}_T, \Delta y^{obs}_{S}) &= 0 \qquad \forall S,T \text{ such that }|S-T| >1 
 \end{align}
 \begin{align}
-\mathrm{Var}{\Delta c^{obs}_T} &= \phi^2 \mathbb{E}\Big( \int_{T-1}^{T} dP_s dP_s \Big) + \psi^2 \mathbb{E}\Big( \int_{T-1}^{T} dQ_s dQ_s \Big) + \mathbb{E} \Big( \int_{T-1}^{T} d\xi_s d\xi_s \Big) +  \sigma^2_{u,T} +  \sigma^2_{u,T-1} \nonumber \\
+\mathrm{Var}{\Delta c^{obs}_T} &= \phi^2 \mathbb{E}\Big( \int_{T-1}^{T} dP_s dP_s \Big) + \psi^2 \mathbb{E}\Big( \int_{T-1}^{T} dQ_s dQ_s \Big) \\
+& \qquad \qquad \qquad+ \mathbb{E} \Big( \int_{T-1}^{T} d\xi_s d\xi_s \Big) +  \sigma^2_{u,T} +  \sigma^2_{u,T-1} \nonumber \\
 &= \phi^2 \sigma^2_{P,T} + \psi^2 \sigma^2_{Q,T} + \sigma^2_{\xi,T}+\sigma^2_{u,T}+   \sigma^2_{u,T-1}  \\
 \mathrm{Cov}(\Delta c^{obs}_T, \Delta c_{T+1}^{obs}) &= -\sigma^2_{u,T} \\
 \mathrm{Cov}(\Delta c^{obs}_T, \Delta c_{T-1}^{obs}) &= -\sigma^2_{u,T-1} \\

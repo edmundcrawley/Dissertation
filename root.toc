@@ -39,7 +39,7 @@
 \contentsline {section}{\numberline {2.5}Data}{66}{section.2.5}% 
 \contentsline {subsection}{\numberline {2.5.1}Income}{66}{subsection.2.5.1}% 
 \contentsline {subsection}{\numberline {2.5.2}Imputed Expenditure}{68}{subsection.2.5.2}% 
-\contentsline {subsection}{\numberline {2.5.3}Sample Selection}{72}{subsection.2.5.3}% 
+\contentsline {subsection}{\numberline {2.5.3}Sample Selection}{71}{subsection.2.5.3}% 
 \contentsline {section}{\numberline {2.6}Income and Consumption Characteristics by Household Wealth}{74}{section.2.6}% 
 \contentsline {section}{\numberline {2.7}Monetary Policy and the Redistribution Channel}{78}{section.2.7}% 
 \contentsline {subsection}{\numberline {2.7.1}Distribution of MPX Across NNP, URE and Income}{79}{subsection.2.7.1}% 
@@ -62,61 +62,61 @@
 \contentsline {section}{\numberline {2.10}Conclusion}{111}{section.2.10}% 
 \contentsline {section}{\numberline {2.11}Appendix}{112}{section.2.11}% 
 \contentsline {subsection}{\numberline {2.11.1}Identification with Time Aggregation}{112}{subsection.2.11.1}% 
-\contentsline {subsection}{\numberline {2.11.2}Sample Selection}{118}{subsection.2.11.2}% 
-\contentsline {subsection}{\numberline {2.11.3}The Danish Mortgage Market}{120}{subsection.2.11.3}% 
-\contentsline {subsection}{\numberline {2.11.4}Details on the Calculation of NNP and URE}{125}{subsection.2.11.4}% 
-\contentsline {subsubsection}{\numberline {2.11.4.1}NNP and URE for Households}{125}{subsubsection.2.11.4.1}% 
-\contentsline {subsubsection}{\numberline {2.11.4.2}Other Sectors}{126}{subsubsection.2.11.4.2}% 
-\contentsline {subsection}{\numberline {2.11.5}Persistent Consumption Response}{127}{subsection.2.11.5}% 
-\contentsline {subsubsection}{\numberline {2.11.5.1}Details on Section \ref {Consumption_persistence} Simulations}{127}{subsubsection.2.11.5.1}% 
-\contentsline {subsubsection}{\numberline {2.11.5.2}Persistent Consumption in the Preference Shock Model}{128}{subsubsection.2.11.5.2}% 
-\contentsline {subsubsection}{\numberline {2.11.5.3}Estimates Using Different Values of $N$}{130}{subsubsection.2.11.5.3}% 
-\contentsline {subsection}{\numberline {2.11.6}Labor Elasticity Model}{132}{subsection.2.11.6}% 
-\contentsline {subsection}{\numberline {2.11.7}RIP or HIP Income Process?}{137}{subsection.2.11.7}% 
-\contentsline {subsection}{\numberline {2.11.8}Time Varying Risk}{139}{subsection.2.11.8}% 
-\contentsline {subsection}{\numberline {2.11.9}Robustness}{140}{subsection.2.11.9}% 
-\contentsline {subsection}{\numberline {2.11.10}Distribution of Permanent MPX by NNP, URE and Income}{145}{subsection.2.11.10}% 
-\contentsline {subsection}{\numberline {2.11.11}Intra-household Income Insurance}{145}{subsection.2.11.11}% 
-\contentsline {chapter}{\numberline {3}Monetary Policy Transmission with Many Agents}{148}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Abstract}{148}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Introduction}{149}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Findings}{150}{subsection.3.2.1}% 
-\contentsline {section}{\numberline {3.3}Transmission Channels}{153}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Aggregate Income Channel}{153}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Earnings Heterogeneity Channel}{154}{subsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.3.3}Interest Rate Exposure Channel}{154}{subsection.3.3.3}% 
-\contentsline {subsection}{\numberline {3.3.4}Fisher Channel}{155}{subsection.3.3.4}% 
-\contentsline {subsection}{\numberline {3.3.5}Intertemporal Substitution Channel}{155}{subsection.3.3.5}% 
-\contentsline {subsection}{\numberline {3.3.6}Aggregation}{156}{subsection.3.3.6}% 
-\contentsline {section}{\numberline {3.4}A TANK Model in which the Decomposition Works Exactly}{157}{section.3.4}% 
-\contentsline {subsection}{\numberline {3.4.1}Model Overview}{157}{subsection.3.4.1}% 
-\contentsline {subsection}{\numberline {3.4.2}Households}{158}{subsection.3.4.2}% 
-\contentsline {subsubsection}{\numberline {3.4.2.1}Ricardian Households}{158}{subsubsection.3.4.2.1}% 
-\contentsline {subsubsection}{\numberline {3.4.2.2}Keynesian Households}{159}{subsubsection.3.4.2.2}% 
-\contentsline {subsubsection}{\numberline {3.4.2.3}Household Aggregation and Wage Schedule}{159}{subsubsection.3.4.2.3}% 
-\contentsline {subsection}{\numberline {3.4.3}Firms}{160}{subsection.3.4.3}% 
-\contentsline {subsubsection}{\numberline {3.4.3.1}Final Goods Firm}{161}{subsubsection.3.4.3.1}% 
-\contentsline {subsubsection}{\numberline {3.4.3.2}Intermediate Goods Firm}{161}{subsubsection.3.4.3.2}% 
-\contentsline {subsection}{\numberline {3.4.4}Monetary Policy}{162}{subsection.3.4.4}% 
-\contentsline {subsection}{\numberline {3.4.5}Equilibrium}{163}{subsection.3.4.5}% 
-\contentsline {subsection}{\numberline {3.4.6}Steady State}{163}{subsection.3.4.6}% 
-\contentsline {subsection}{\numberline {3.4.7}Log-linearized Model}{164}{subsection.3.4.7}% 
-\contentsline {subsection}{\numberline {3.4.8}Calibration}{166}{subsection.3.4.8}% 
-\contentsline {section}{\numberline {3.5}Results from the Baseline TANK Model}{167}{section.3.5}% 
-\contentsline {subsection}{\numberline {3.5.1}Model with No Debt}{167}{subsection.3.5.1}% 
-\contentsline {subsection}{\numberline {3.5.2}Introducing Debt}{170}{subsection.3.5.2}% 
-\contentsline {section}{\numberline {3.6}Relaxing the Fixed Capital Assumption}{174}{section.3.6}% 
-\contentsline {subsection}{\numberline {3.6.1}The Model}{175}{subsection.3.6.1}% 
-\contentsline {subsection}{\numberline {3.6.2}Changes Relative to the Linear Baseline Model}{175}{subsection.3.6.2}% 
-\contentsline {subsection}{\numberline {3.6.3}Results from the Model with Investment}{177}{subsection.3.6.3}% 
-\contentsline {section}{\numberline {3.7}A Simple HANK Model}{183}{section.3.7}% 
-\contentsline {subsection}{\numberline {3.7.1}The Model}{183}{subsection.3.7.1}% 
-\contentsline {subsubsection}{\numberline {3.7.1.1}Households}{183}{subsubsection.3.7.1.1}% 
-\contentsline {subsubsection}{\numberline {3.7.1.2}Price Setting}{185}{subsubsection.3.7.1.2}% 
-\contentsline {subsubsection}{\numberline {3.7.1.3}Fiscal Policy}{185}{subsubsection.3.7.1.3}% 
-\contentsline {subsubsection}{\numberline {3.7.1.4}Monetary Policy}{186}{subsubsection.3.7.1.4}% 
-\contentsline {subsection}{\numberline {3.7.2}Results from the HANK model}{186}{subsection.3.7.2}% 
-\contentsline {subsubsection}{\numberline {3.7.2.1}Effect of GHH Preferences}{186}{subsubsection.3.7.2.1}% 
-\contentsline {subsubsection}{\numberline {3.7.2.2}Is a Monetary Policy Shock Transitory in the HANK Model?}{187}{subsubsection.3.7.2.2}% 
-\contentsline {subsubsection}{\numberline {3.7.2.3}Which Transmission Channels Are Important?}{187}{subsubsection.3.7.2.3}% 
-\contentsline {section}{\numberline {3.8}Conclusion}{190}{section.3.8}% 
+\contentsline {subsection}{\numberline {2.11.2}Sample Selection}{119}{subsection.2.11.2}% 
+\contentsline {subsection}{\numberline {2.11.3}The Danish Mortgage Market}{121}{subsection.2.11.3}% 
+\contentsline {subsection}{\numberline {2.11.4}Details on the Calculation of NNP and URE}{126}{subsection.2.11.4}% 
+\contentsline {subsubsection}{\numberline {2.11.4.1}NNP and URE for Households}{126}{subsubsection.2.11.4.1}% 
+\contentsline {subsubsection}{\numberline {2.11.4.2}Other Sectors}{127}{subsubsection.2.11.4.2}% 
+\contentsline {subsection}{\numberline {2.11.5}Persistent Consumption Response}{128}{subsection.2.11.5}% 
+\contentsline {subsubsection}{\numberline {2.11.5.1}Details on Section \ref {Consumption_persistence} Simulations}{128}{subsubsection.2.11.5.1}% 
+\contentsline {subsubsection}{\numberline {2.11.5.2}Persistent Consumption in the Preference Shock Model}{129}{subsubsection.2.11.5.2}% 
+\contentsline {subsubsection}{\numberline {2.11.5.3}Estimates Using Different Values of $N$}{131}{subsubsection.2.11.5.3}% 
+\contentsline {subsection}{\numberline {2.11.6}Labor Elasticity Model}{133}{subsection.2.11.6}% 
+\contentsline {subsection}{\numberline {2.11.7}RIP or HIP Income Process?}{138}{subsection.2.11.7}% 
+\contentsline {subsection}{\numberline {2.11.8}Time Varying Risk}{140}{subsection.2.11.8}% 
+\contentsline {subsection}{\numberline {2.11.9}Robustness}{141}{subsection.2.11.9}% 
+\contentsline {subsection}{\numberline {2.11.10}Distribution of Permanent MPX by NNP, URE and Income}{146}{subsection.2.11.10}% 
+\contentsline {subsection}{\numberline {2.11.11}Intra-household Income Insurance}{146}{subsection.2.11.11}% 
+\contentsline {chapter}{\numberline {3}Monetary Policy Transmission with Many Agents}{149}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Abstract}{149}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Introduction}{150}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Findings}{151}{subsection.3.2.1}% 
+\contentsline {section}{\numberline {3.3}Transmission Channels}{154}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Aggregate Income Channel}{154}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Earnings Heterogeneity Channel}{155}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Interest Rate Exposure Channel}{155}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3.4}Fisher Channel}{156}{subsection.3.3.4}% 
+\contentsline {subsection}{\numberline {3.3.5}Intertemporal Substitution Channel}{156}{subsection.3.3.5}% 
+\contentsline {subsection}{\numberline {3.3.6}Aggregation}{157}{subsection.3.3.6}% 
+\contentsline {section}{\numberline {3.4}A TANK Model in which the Decomposition Works Exactly}{158}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Model Overview}{158}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Households}{159}{subsection.3.4.2}% 
+\contentsline {subsubsection}{\numberline {3.4.2.1}Ricardian Households}{159}{subsubsection.3.4.2.1}% 
+\contentsline {subsubsection}{\numberline {3.4.2.2}Keynesian Households}{160}{subsubsection.3.4.2.2}% 
+\contentsline {subsubsection}{\numberline {3.4.2.3}Household Aggregation and Wage Schedule}{160}{subsubsection.3.4.2.3}% 
+\contentsline {subsection}{\numberline {3.4.3}Firms}{161}{subsection.3.4.3}% 
+\contentsline {subsubsection}{\numberline {3.4.3.1}Final Goods Firm}{162}{subsubsection.3.4.3.1}% 
+\contentsline {subsubsection}{\numberline {3.4.3.2}Intermediate Goods Firm}{162}{subsubsection.3.4.3.2}% 
+\contentsline {subsection}{\numberline {3.4.4}Monetary Policy}{163}{subsection.3.4.4}% 
+\contentsline {subsection}{\numberline {3.4.5}Equilibrium}{164}{subsection.3.4.5}% 
+\contentsline {subsection}{\numberline {3.4.6}Steady State}{164}{subsection.3.4.6}% 
+\contentsline {subsection}{\numberline {3.4.7}Log-linearized Model}{165}{subsection.3.4.7}% 
+\contentsline {subsection}{\numberline {3.4.8}Calibration}{167}{subsection.3.4.8}% 
+\contentsline {section}{\numberline {3.5}Results from the Baseline TANK Model}{168}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Model with No Debt}{168}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Introducing Debt}{171}{subsection.3.5.2}% 
+\contentsline {section}{\numberline {3.6}Relaxing the Fixed Capital Assumption}{175}{section.3.6}% 
+\contentsline {subsection}{\numberline {3.6.1}The Model}{176}{subsection.3.6.1}% 
+\contentsline {subsection}{\numberline {3.6.2}Changes Relative to the Linear Baseline Model}{176}{subsection.3.6.2}% 
+\contentsline {subsection}{\numberline {3.6.3}Results from the Model with Investment}{178}{subsection.3.6.3}% 
+\contentsline {section}{\numberline {3.7}A Simple HANK Model}{184}{section.3.7}% 
+\contentsline {subsection}{\numberline {3.7.1}The Model}{184}{subsection.3.7.1}% 
+\contentsline {subsubsection}{\numberline {3.7.1.1}Households}{184}{subsubsection.3.7.1.1}% 
+\contentsline {subsubsection}{\numberline {3.7.1.2}Price Setting}{186}{subsubsection.3.7.1.2}% 
+\contentsline {subsubsection}{\numberline {3.7.1.3}Fiscal Policy}{186}{subsubsection.3.7.1.3}% 
+\contentsline {subsubsection}{\numberline {3.7.1.4}Monetary Policy}{187}{subsubsection.3.7.1.4}% 
+\contentsline {subsection}{\numberline {3.7.2}Results from the HANK model}{187}{subsection.3.7.2}% 
+\contentsline {subsubsection}{\numberline {3.7.2.1}Effect of GHH Preferences}{187}{subsubsection.3.7.2.1}% 
+\contentsline {subsubsection}{\numberline {3.7.2.2}Is a Monetary Policy Shock Transitory in the HANK Model?}{188}{subsubsection.3.7.2.2}% 
+\contentsline {subsubsection}{\numberline {3.7.2.3}Which Transmission Channels Are Important?}{188}{subsubsection.3.7.2.3}% 
+\contentsline {section}{\numberline {3.8}Conclusion}{191}{section.3.8}% 

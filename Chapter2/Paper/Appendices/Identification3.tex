@@ -46,18 +46,19 @@ Where the approximation holds so long as $\frac{P_{t}}{P_{T-1}}$ is close to 1 f
 so that
 \begin{align*}
 \mathrm{Var}\big(\mathcal{Q}^1_{T,N}\big) &\approx \sigma^2_{\theta} + \mathbb{E} \Bigg(\int_{T-1}^{T} \Big(\frac{P_t}{P_{T-1}}-1\Big)\frac{\theta_t}{\bar{\theta}_T} dt \Bigg)^2 \\
-&= \sigma^2_{\theta} + \mathbb{E} \Bigg(\int_{T-1}^{T} \int_{T-1}^{T} \Big(\frac{P_t}{P_{T-1}}-1\Big) \Big(\frac{P_s}{P_{T-1}}-1\Big) \frac{\theta_t \theta_s}{\bar{\theta}_T^2}  dt ds \Bigg) \\
-&= \sigma^2_{\theta} +  \int_{T-1}^{T} \int_{T-1}^{T} \mathbb{E}\Bigg(\Big(\frac{P_{\min(t,s)}}{P_{T-1}}\Big)^2 \frac{P_{\max(t,s)}}{P_{\min(t,s)}}-\frac{P_t}{P_{T-1}}-\frac{P_s}{P_{T-1}}-1\Bigg) \mathbb{E} \Bigg( \frac{\theta_t \theta_s}{\bar{\theta}_T^2} \Bigg)  dt ds \\
-&= \sigma^2_{\theta} +    \int_{T-1}^{T} \int_{T-1}^{T} \mathrm{Var}\Bigg(\frac{P_{\min(t,s)}}{P_{T-1}} \Bigg) \mathbb{E}\Bigg( \frac{\theta_t \theta_s}{\bar{\theta}_T^2} \Bigg) dt ds \\
-&\approx \sigma^2_{\theta} +  \sigma^2_P\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)  \mathbb{E} \Bigg( \frac{\theta_t \theta_s}{\bar{\theta}_T^2} \Bigg) dt ds \\
-&= \sigma^2_{\theta} +  \sigma^2_P\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)  \mathbb{E} \Bigg(\Big( 1 +\frac{\theta_t-\bar{\theta}_T}{\bar{\theta}_T} \Big) \Big( 1 +\frac{\theta_s-\bar{\theta}_T}{\bar{\theta}_T} \Big)\Bigg) dt ds \\
-&= \sigma^2_{\theta} +  \sigma^2_P\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)   \Bigg(1+\mathbb{E}\Big( \hat{\theta}_{t,T} \Big) +\mathbb{E} \Big( \hat{\theta}_{s,T} \Big) +\mathbb{E}\Big( \hat{\theta}_{t,T} \hat{\theta}_{s,T}\Big)\Bigg) dt ds
+=& \sigma^2_{\theta} + \mathbb{E} \Bigg(\int_{T-1}^{T} \int_{T-1}^{T} \Big(\frac{P_t}{P_{T-1}}-1\Big) \Big(\frac{P_s}{P_{T-1}}-1\Big) \frac{\theta_t \theta_s}{\bar{\theta}_T^2}  dt ds \Bigg) \\
+=& \sigma^2_{\theta} \\
+&  +  \int_{T-1}^{T} \int_{T-1}^{T} \mathbb{E}\Bigg(\Big(\frac{P_{\min(t,s)}}{P_{T-1}}\Big)^2 \frac{P_{\max(t,s)}}{P_{\min(t,s)}}-\frac{P_t}{P_{T-1}}-\frac{P_s}{P_{T-1}}-1\Bigg) \mathbb{E} \Bigg( \frac{\theta_t \theta_s}{\bar{\theta}_T^2} \Bigg)  dt ds \\
+=& \sigma^2_{\theta} +    \int_{T-1}^{T} \int_{T-1}^{T} \mathrm{Var}\Bigg(\frac{P_{\min(t,s)}}{P_{T-1}} \Bigg) \mathbb{E}\Bigg( \frac{\theta_t \theta_s}{\bar{\theta}_T^2} \Bigg) dt ds \\
+\approx& \sigma^2_{\theta} +  \sigma^2_P\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)  \mathbb{E} \Bigg( \frac{\theta_t \theta_s}{\bar{\theta}_T^2} \Bigg) dt ds \\
+=& \sigma^2_{\theta} +  \sigma^2_P\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)  \mathbb{E} \Bigg(\Big( 1 +\frac{\theta_t-\bar{\theta}_T}{\bar{\theta}_T} \Big) \Big( 1 +\frac{\theta_s-\bar{\theta}_T}{\bar{\theta}_T} \Big)\Bigg) dt ds \\
+=& \sigma^2_{\theta} +  \sigma^2_P\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)   \Bigg(1+\mathbb{E}\Big( \hat{\theta}_{t,T} \Big) +\mathbb{E} \Big( \hat{\theta}_{s,T} \Big) +\mathbb{E}\Big( \hat{\theta}_{t,T} \hat{\theta}_{s,T}\Big)\Bigg) dt ds
 \end{align*}
 where $\hat{\theta}_{t,T} = \frac{\theta_t-\bar{\theta}_T}{\bar{\theta}_T}$. Continuing:
 \begin{align*}
 \mathrm{Var}\big(\mathcal{Q}^1_{T,N}\big) 
 &\approx \sigma^2_{\theta} +  \sigma^2_P\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)    dt ds \\
-& \qquad \qquad +\sigma^2_P \underbrace{\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)   \Bigg(\mathbb{E}\Big( \hat{\theta}_{t,T} \Big) +\mathbb{E} \Big( \hat{\theta}_{s,T} \Big) +\mathbb{E}\Big( \hat{\theta}_{t,T} \hat{\theta}_{s,T}\Big)\Bigg) dt ds }_{\approx 0} \\
+& \qquad \quad +\sigma^2_P \underbrace{\int_{T-1}^{T} \int_{T-1}^{T}  \min(t,s)   \Bigg(\mathbb{E}\Big( \hat{\theta}_{t,T} \Big) +\mathbb{E} \Big( \hat{\theta}_{s,T} \Big) +\mathbb{E}\Big( \hat{\theta}_{t,T} \hat{\theta}_{s,T}\Big)\Bigg) dt ds }_{\approx 0} \\
 &= \sigma^2_{\theta} +  \sigma^2_P\int_{T-1}^{T} \Bigg( \int_{T-1}^{s}  t dt +  \int_{s}^{T}  s dt\Bigg) ds \\
 &= \sigma^2_{\theta} +  \frac{1}{3}\sigma^2_P
 \end{align*}
@@ -102,15 +103,15 @@ where the steps taken in the approximation are the same as we did in the case of
 \begin{align*}
 \mathrm{Cov}\Big(\mathcal{Q}^1_{T,N},\mathcal{C}^1_{T,N} \Big) 
 &=\mathrm{Cov}\Big( \log \Big( \bar{\theta}_T \Big), \log \Big( \bar{C^{\theta}_T} \Big) \Big) \\
-& \qquad + \mathbb{E} \Bigg(\int_{T-1}^{T} \int_{T-1}^{T} \Big(\frac{P_t}{P_{T-1}}-1\Big)\Big( \Big(\frac{P_s}{P_{T-1}}\Big)^{\phi}e^{-(s-(T-1))(\nu_{p_c}-\phi \nu_p)}-1\Big)\frac{\theta_t}{\bar{\theta}_T} \frac{C^{\theta}_s}{\bar{C^{\theta}_T}} dt ds \Bigg) \\
+ + \mathbb{E} \Bigg(\int_{T-1}^{T} \int_{T-1}^{T}& \Big(\frac{P_t}{P_{T-1}}-1\Big)\Big( \Big(\frac{P_s}{P_{T-1}}\Big)^{\phi}e^{-(s-(T-1))(\nu_{p_c}-\phi \nu_p)}-1\Big)\frac{\theta_t}{\bar{\theta}_T} \frac{C^{\theta}_s}{\bar{C^{\theta}_T}} dt ds \Bigg) \\
 &=\mathrm{Cov}\Big( \log \Big( \bar{\theta}_T \Big), \log \Big( \bar{C^{\theta}_T} \Big) \Big) \\
-& \qquad + \mathbb{E} \Bigg(\int_{T-1}^{T} \int_{T-1}^{T} \Big( \Big(\frac{P_{\min(t,s)}}{P_{T-1}}\Big)^{1+\phi}e^{-(\min(t,s)-(T-1))(\nu_{p_c}-\phi \nu_p)}-1\Big)\frac{\theta_t}{\bar{\theta}_T} \frac{C^{\theta}_s}{\bar{C^{\theta}_T}} dt ds \Bigg) \\
+  + \mathbb{E}  \Bigg(\int_{T-1}^{T} \int_{T-1}^{T}& \Big( \Big(\frac{P_{\min(t,s)}}{P_{T-1}}\Big)^{1+\phi}e^{-(\min(t,s)-(T-1))(\nu_{p_c}-\phi \nu_p)}-1\Big)\frac{\theta_t}{\bar{\theta}_T} \frac{C^{\theta}_s}{\bar{C^{\theta}_T}} dt ds \Bigg) \\
 &=\mathrm{Cov}\Big( \log \Big( \bar{\theta}_T \Big), \log \Big( \bar{C^{\theta}_T} \Big) \Big) \\
-& \qquad +  \int_{T-1}^{T} \int_{T-1}^{T} \mathbb{E}\Big( \Big(\frac{P_{\min(t,s)}}{P_{T-1}}\Big)^{1+\phi}e^{-(\min(t,s)-(T-1))(\nu_{p_c}-\phi \nu_p)}-1\Big) dt ds  \\
-& \approx 0
+  + & \int_{T-1}^{T} \int_{T-1}^{T} \mathbb{E}\Big( \Big(\frac{P_{\min(t,s)}}{P_{T-1}}\Big)^{1+\phi}e^{-(\min(t,s)-(T-1))(\nu_{p_c}-\phi \nu_p)}-1\Big) dt ds  \\
+ \approx 0 &
 \begin{cases}
  \qquad +  \int_{T-1}^{T} \int_{T-1}^{T} \mathbb{E}\Bigg(\Big( \Big(\frac{P_{\min(t,s)}}{P_{T-1}}\Big)^{1+\phi}e^{-(\min(t,s)-(T-1))(\nu_{p_c}-\phi \nu_p)}-1\Big) \\
-  \qquad \qquad \qquad \qquad \qquad \qquad \times \Big(\mathbb{E}\Big(\hat{\theta_t}\Big)  + \mathbb{E}\Big(\hat{C}^{\theta}_s \Big) + \mathbb{E}\Big(\hat{\theta_t} \hat{C}^{\theta}_s\Big)\Big)\Bigg) dt ds 
+  \qquad \qquad \qquad \qquad \qquad  \times \Big(\mathbb{E}\Big(\hat{\theta_t}\Big)  + \mathbb{E}\Big(\hat{C}^{\theta}_s \Big) + \mathbb{E}\Big(\hat{\theta_t} \hat{C}^{\theta}_s\Big)\Big)\Bigg) dt ds 
  \end{cases} \\
  &= \mathrm{Cov}\Big( \log \Big( \bar{\theta}_T \Big), \log \Big( \bar{C^{\theta}_T} \Big) \Big) \\
  & \qquad +  \int_{0}^{1} \int_{0}^{1} \mathbb{E}\Big( P_{\min(t,s)}^{1+\phi}e^{-\min(t,s)(\nu_{p_c}-\phi \nu_p)}-1\Big) dt ds

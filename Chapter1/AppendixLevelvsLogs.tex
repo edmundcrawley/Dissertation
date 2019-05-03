@@ -44,15 +44,17 @@ Note that for $m=1$ this the same as the underlying income process, with permane
 As $P_t$ and $\Theta_t$ have independent increments, the covariance between each of the two parts of the sum above is 0. Therefore:
 \begin{align*}
 \mathrm{Var}\Big(\Delta^1 \bar{y}_{T,m}\Big) 
-&= \mathrm{Var}\Bigg(\log\Bigg(\sum_{i=0}^{m-1} \frac{P_{T-\frac{i}{m}}}{P_{T-1}} \theta_{T-\frac{i}{m},m}\Bigg)\Bigg)
-+\mathrm{Var}\Bigg(\log\Bigg(\sum_{i=0}^{m-1}\frac{ P_{T-1-\frac{i}{m}}}{P_{T-1}} \theta_{T-1-\frac{i}{m},m}\Bigg) \Bigg)
+&= \mathrm{Var}\Bigg(\log\Bigg(\sum_{i=0}^{m-1} \frac{P_{T-\frac{i}{m}}}{P_{T-1}} \theta_{T-\frac{i}{m},m}\Bigg)\Bigg) \\
+&+\mathrm{Var}\Bigg(\log\Bigg(\sum_{i=0}^{m-1}\frac{ P_{T-1-\frac{i}{m}}}{P_{T-1}} \theta_{T-1-\frac{i}{m},m}\Bigg) \Bigg)
 \end{align*}
 We will treat each of these two variances individually. We begin by looking at the variable:
 \begin{align*}
 \log \Bigg(\sum_{i=0}^{m-1} \frac{P_{T-\frac{i}{m}}}{P_{T-1}} \theta_{T-\frac{i}{m},m} \Bigg)
 &= \log \Bigg(\sum_{i=0}^{m-1} \theta_{T-\frac{i}{m},m} + \sum_{i=0}^{m-1} \Big(\frac{P_{T-\frac{i}{m}}}{P_{T-1}}-1\Big) \theta_{T-\frac{i}{m},m} \Bigg) \\
-&= \log\Big( \Theta_T-\Theta_{T-1}\Big) + \log \Bigg(1 + \sum_{i=0}^{m-1} \Big(\frac{P_{T-\frac{i}{m}}}{P_{T-1}}-1\Big) \frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}} \Bigg) \\
-&\approx \log\Big( \Theta_T-\Theta_{T-1}\Big) +  \sum_{i=0}^{m-1} \Big(\frac{P_{T-\frac{i}{m}}}{P_{T-1}}-1\Big) \frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}}
+&= \log\Big( \Theta_T-\Theta_{T-1}\Big) \\
+&+ \log \Bigg(1 + \sum_{i=0}^{m-1} \Big(\frac{P_{T-\frac{i}{m}}}{P_{T-1}}-1\Big) \frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}} \Bigg) \\
+&\approx \log\Big( \Theta_T-\Theta_{T-1}\Big) \\
+& +  \sum_{i=0}^{m-1} \Big(\frac{P_{T-\frac{i}{m}}}{P_{T-1}}-1\Big) \frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}}
 \end{align*}
 Where the approximation comes from the fact that the shocks to permanent income in a one year period are small. Defining
 \begin{align*}
@@ -65,7 +67,8 @@ we have that
 &= \sigma^2_{\Theta} + \mathbb{E}\Bigg[ \sum_{i=0}^{m-1} \Big(\prod_{j=i}^{m-1} \zeta_{T-\frac{j}{m}}   -1\Big) \frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}} \Bigg]^2 \\
 &= \sigma^2_{\Theta} + \mathbb{E}\Bigg[ \sum_{i=0}^{m-1} \Bigg( \Big(\prod_{j=i}^{m-1} \zeta_{T-\frac{j}{m}}   -1\Big)^2 \Bigg(\frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}} \Bigg)^2 \\
 & \qquad \qquad \qquad + 2 \sum_{k<i} \Big(\prod_{j=k}^{m-1} \zeta_{T-\frac{j}{m}}   -1\Big) \Big(\prod_{j=i}^{m-1} \zeta_{T-\frac{j}{m}}   -1\Big) \frac{\theta_{T-\frac{k}{m},m} \theta_{T-\frac{i}{m},m}}{\Big( \sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m} \Big)^2}  \Bigg) \Bigg] \\
-&= \sigma^2_{\Theta} + \frac{\sigma^2_P}{m} \sum_{i=0}^{m-1} \Bigg( i\mathbb{E} \Bigg(\frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}} \Bigg)^2  + 2 \sum_{k<i} (m-1-i)\mathbb{E}\Bigg( \frac{\theta_{T-\frac{k}{m},m} \theta_{T-\frac{i}{m},m}}{\Big( \sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m} \Big)^2} \Bigg) \Bigg)  \\
+&= \sigma^2_{\Theta} + \frac{\sigma^2_P}{m} \sum_{i=0}^{m-1} \Bigg( i\mathbb{E} \Bigg(\frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}} \Bigg)^2  \\
+& \qquad \qquad \qquad+ 2 \sum_{k<i} (m-1-i)\mathbb{E}\Bigg( \frac{\theta_{T-\frac{k}{m},m} \theta_{T-\frac{i}{m},m}}{\Big( \sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m} \Big)^2} \Bigg) \Bigg)  \\
 &= \sigma^2_{\Theta} + \frac{\sigma^2_P}{m} \frac{m(m-1)}{2}\mathbb{E} \Bigg(\frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}} \Bigg)^2 \\
 & \qquad \qquad + 2  \frac{\sigma^2_P}{m} \sum_{i=1}^{m-1} i (m-1-i)\mathbb{E}\Bigg( \frac{\theta_{T-\frac{k}{m},m} \theta_{T-\frac{i}{m},m}}{\Big( \sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m} \Big)^2} \Bigg)  \\
 &= \sigma^2_{\Theta} + \sigma^2_P \frac{m-1}{2}\mathbb{E} \Bigg(\frac{\theta_{T-\frac{i}{m},m}}{\sum_{l=0}^{m-1} \theta_{T-\frac{l}{m},m}} \Bigg)^2 \\
