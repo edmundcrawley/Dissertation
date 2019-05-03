@@ -5,6 +5,11 @@ from CalcTransChannels import CalcTransChannels_TANK, CalcTransChannels_TANKcapi
 figure_dir = '.\\Figures\\'
 table_dir = '.\\Tables\\'
 
+#plt.rc('xtick', labelsize=18) 
+#plt.rc('ytick', labelsize=18) 
+#plt.rc('axes', labelsize=18) 
+
+
 #################################################
 # First do the TANK model without capital
 #################################################          
@@ -59,6 +64,19 @@ for this_sigma in [1.0,2.0,3.0]:
             save_name = 'KeynesianDebt_sigma'+ '{:.0f}'.format(this_sigma) + '.pdf'
         else:
             print('Can\'t handle this parameter')
+           
+#        # Run this for making large font for slides
+#        if param_to_vary[j]=='pop_share_K':
+#            plt.title('Result of a 1% Interest Rate Decline', fontsize=18)
+#            plt.axvline(x=0.2, color='k', linestyle='--')
+#            save_name = 'ProportionKeynesian_sigma'+ '{:.0f}'.format(this_sigma) + '_slides.pdf'
+#        elif param_to_vary[j]=='debt_limit':
+#            plt.title('Result of a 1% Interest Rate Decline', fontsize=18)
+#            save_name = 'KeynesianDebt_sigma'+ '{:.0f}'.format(this_sigma) + '_slides.pdf'
+#        else:
+#            print('Can\'t handle this parameter')
+#        plt.tight_layout(pad=0)
+        
         plt.savefig(figure_dir + save_name)
 
 

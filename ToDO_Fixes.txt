@@ -1,7 +1,4 @@
 
-Fixes for library version:
-
-Table width/heights (maybe OK?)
 
 
 Tomorrow:
